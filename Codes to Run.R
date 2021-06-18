@@ -4,12 +4,10 @@ clean_names(tripdata0421)
 
 mtrip0421 <- tripdata0421 %>%
   filter(member_casual== "member")
-View(mtrip0421)
 
 metrip0421 <- mtrip0421 %>%
   mutate(m_trip_time= ended_at-started_at) %>%
   arrange(ride_id)
-View(metrip0421)
 
 unique(metrip0421)
 
@@ -24,11 +22,9 @@ write.csv(memtrip0421,"C:\\SPB_Data\\Case Study 01\\Cleaned Data\\Mem_trip042021
 
 ctrip0421 <- tripdata0421 %>%
   filter(member_casual== "casual")
-View(ctrip0421)
 
 cetrip0421 <- ctrip0421 %>%
   mutate(trip_time= ended_at-started_at)
-View(cetrip0421)
 
 unique(cetrip0421)
 
