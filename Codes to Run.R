@@ -45,4 +45,4 @@ memtrip0421 %>% # Memeber Riders trip data for the month April 2021
 castrip0421 %>% # Casual Riders trip data for the month April 2021
   summarise(cas_min_time= min(trip_time), cas_max_time= max(trip_time), cas_avg_trip_time=mean(trip_time), cas_total_time=sum(trip_time))
 
-# This was repeated for 12 different files for each month
+# This was repeated for 12 different files for each month 
