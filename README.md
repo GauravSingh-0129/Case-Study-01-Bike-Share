@@ -14,5 +14,5 @@ Cyclistic executive team: The detail-oriented executive team that decides whethe
 ## Business Statement
 Design marketing strategies aimed at converting casual riders into annual members. In order to do that, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
-## Questions to be answered (Answered in the presentation):
+## Questions to be answered:
 •	How do annual members and casual riders use Cyclistic bikes differently?
