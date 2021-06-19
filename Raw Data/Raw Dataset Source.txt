@@ -1,0 +1,2 @@
+The data used for this analysis is provided by the company and is located on the following link – 
+https://divvy-tripdata.s3.amazonaws.com/index.html
